@@ -69,10 +69,15 @@ console.log(x - 4);
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-const name1 = "john";
-const name2 = "John";
+let name1 = "john".toLowerCase();
+let name2 = "John".toLowerCase();
 
-const verifica1 =
+let verifica1 =
  name1 === name2 ? 'La verifica è true' : 'La verifica è false';
  console.log(verifica1);
+
+ //Extra
+
+
+
 
