@@ -53,15 +53,20 @@ console.log(x);
 myName = "Friptuleac";
 console.log(myName); //nuovo valore alla variabile "myName"
 
-const myNAme = "Diana";
-//myNAme = "Friptuleac";
-//console.log(myNAme); //variabile const.
+const myConst = "Mario";
+console.log(myConst); 
+//myConst = "Rossi"; gennera un errore 
+
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
+let num3 = 4;
+let sottrazione = x - num3;
+console.log(sottrazione);
 
-console.log(x - 4);
+let sottrazione2 = x - 4;
+console.log(sottrazione2); //soluzione 2, meno usata.
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -69,14 +74,20 @@ console.log(x - 4);
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-let name1 = "john".toLowerCase();
-let name2 = "John".toLowerCase();
+let name1 = "john";
+let name2 = "John";
 
-let verifica1 =
- name1 === name2 ? 'La verifica è true' : 'La verifica è false';
- console.log(verifica1);
+const verify1 =
+ name1 !== name2 ? 'name1 è diverso da name2' : 'name1 è identico a name2';
+ console.log(verify1);
 
  //Extra
+ name1 = name1.toLowerCase();
+ name2 = name2.toLowerCase();
+
+ const verify2 = 
+ name1 !== name2 ? 'name1 è diverso da name2' : 'name1 è identico a name2';
+ console.log(verify2);
 
 
 
